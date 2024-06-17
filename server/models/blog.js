@@ -19,6 +19,7 @@ const Blog = {
         id INT AUTO_INCREMENT PRIMARY KEY,
         title VARCHAR(255) NOT NULL,
         description VARCHAR(1000) NOT NULL,
+        category varchar(255) NOT NULL,
         img VARCHAR(255),
         date DATETIME,
         uid INT,
